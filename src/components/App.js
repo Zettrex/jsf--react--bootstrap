@@ -1,13 +1,15 @@
 import React from 'react';
+import '../style/App.css';
+import SliderContainer from "./slider/SliderContainer";
 
-export default function App() {
-    return (
-        <div className="App">
-            <nav>
-                <a href="/">Home</a>
-                <a href="/section1/">Section 1</a>
-                <a href="/section2/">Section 2</a>
-            </nav>
-        </div>
-    );
+function App() {
+  return (
+    <div className="App">
+      <SliderContainer>
+        
+      </SliderContainer>
+    </div>
+  );
 }
+
+export default App;
