@@ -9,9 +9,13 @@ function App() {
     <div className="App">
         <NavBar bg="primary" expand="lg">
             <NavBar.Brand href="/"/>
+            <NavBar.Toggle>Menu</NavBar.Toggle>
             <NavBar.Collapse id="responsiveNav">
                 <Nav>
-
+                    <Nav.Link>Link1</Nav.Link>
+                    <Nav.Link>Link2</Nav.Link>
+                    <Nav.Link>Link3</Nav.Link>
+                    <Nav.Link>Link4</Nav.Link>
                 </Nav>
             </NavBar.Collapse>
         </NavBar>
